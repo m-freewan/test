@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "lib-components": {
+    "olive-uitk": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -41,7 +41,7 @@
           "builder": "@storybook/angular:start-storybook",
           "options": {
             "configDir": ".storybook",
-            "browserTarget": "lib-components:build",
+            "browserTarget": "olive-uitk:build",
             "compodoc": true,
             "compodocArgs": ["-e", "json", "-d", "."],
             "port": 6006
@@ -51,7 +51,7 @@
           "builder": "@storybook/angular:build-storybook",
           "options": {
             "configDir": ".storybook",
-            "browserTarget": "lib-components:build",
+            "browserTarget": "olive-uitk:build",
             "compodoc": true,
             "compodocArgs": ["-e", "json", "-d", "."],
             "outputDir": "storybook-static"
