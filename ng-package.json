@@ -5,6 +5,7 @@
     "entryFile": "src/index.ts"
   },
   "allowedNonPeerDependencies": [
+    "@angular/material",
     "@angular/animations",
     "@angular/common",
     "@angular/core",
