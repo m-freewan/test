@@ -8,7 +8,8 @@
       "schematics": {
         "@schematics/angular:component": {
           "style": "scss"
-        }
+        },
+        "allowedNonPeerDependencies": ["@angular/material"]
       },
       "root": "",
       "sourceRoot": "src",
